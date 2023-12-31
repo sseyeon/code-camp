@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.background {
+  width: 1024px;
+  height: 600px;
+  padding: 20px 0 0 20px;
+  background-image: url(../images/gray-bg.png);
+}
+
+.outerbox {
+  width: 808px;
+  height: 544px;
+  background-image: url(../images/hompi.png);
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper__left {
+  width: 200px;
+  height: 544px;
+}
+.wrapper__right {
+  width: 608px;
+  height: 544px;
+}
